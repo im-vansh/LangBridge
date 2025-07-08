@@ -26,5 +26,26 @@ A simple and interactive web-based **language translator** that allows users to 
 > Clean layout with two side-by-side text areas and language toolsets below each.  
 > Includes language dropdown, speaker icon, and copy icon for both sections.
 
-## 📁 File Structure
+## 🗣️ Supported Languages
+
+Languages like:
+- English
+- Hindi
+- Spanish
+- French
+- Tagalog
+- Many more...
+
+(Mapped via ISO language codes in `countries.js`.)
+
+## 🔧 To-Do / Improvements
+
+- ✅ Add support for more APIs (e.g., Google Translate API).
+- ✅ Auto-detect input language.
+- ⏳ Add dark/light mode toggle.
+- ⏳ Improve mobile responsiveness.
+
+---
+
+> Built with 💙 using HTML, CSS & JavaScript.
 
