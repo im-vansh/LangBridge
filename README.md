@@ -1,4 +1,4 @@
-# LangBridge
+
 # 🌐 Language Translator Web App
 
 A simple and interactive web-based **language translator** that allows users to translate text between different languages. The app also includes **speech synthesis** (text-to-speech) and **copy-to-clipboard** functionalities.
