@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #003f5c;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 600px;
+    width: 650px;
+    background: linear-gradient(to top, #012E4D,#007EA7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 6px 12px darkblue;
+    border-radius: 13px;
+}
+
+.container:hover{
+    box-shadow: 5px 6px 12px red
+}
+
+.Text{
+    width: 100%;
+    height: 350px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+#fromText{
+    width: 60%;
+    height: 300px;
+    margin-left: 7px;
+    background-color: azure;
+    color: black;
+    font-size: 19px;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+#toText{
+    width: 60%;
+    height: 300px;
+    margin-right: 7px;
+    background-color: azure;
+    color: black;
+    font-size: 19px;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.selectArea{
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: rgb(60, 60, 64);
+    margin-top: 15px;
+}
+
+.select1{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-right: 5px solid #012E4D;
+    border-radius: 4px;
+    gap: 7px;
+}
+
+.select2{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-left: 5px solid #012E4D;
+    border-radius: 4px;
+    gap: 7px;
+}
+
+#fselect{
+    padding: 10px 30px 10px 10px;
+    border-radius: 7px;
+    font-size: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#sselect{
+    padding: 10px 30px 10px 10px;
+    border-radius: 7px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#Translator{
+    width: 300px;
+    height: 35px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+#Translator:hover{
+    box-shadow: blueviolet;
+    transform: scale(110%);
+}
+
+.speaker{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 18px;
+}
+
+.copy{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.speaker:hover{
+    transform: scale(130%);
+}
+
+.copy:hover{
+    transform: scale(130%);
+}
